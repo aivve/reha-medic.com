@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px Verdena, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+p {
+    margin: 0;
+    padding: 10px 0;
+    text-align: justify;
+}
+
+#main {
+    margin: 0 auto;
+    padding: 0;
+    width: 850px;
+    text-align: left;
+    background-color: #FFFFFF;
+    border-left: 0px solid #a8ab93;
+    border-right: 0px solid #a8ab93;
+}
+
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	width: 210px;
+	padding: 0px 0px 0px 0px;
+	background-color: #a8ab93;
+	border: 0px double #28e;
+}
+
+ul li {
+	border-bottom: 1px solid #FFF;
+	width: 224px;
+}
+
+ul a:link, ul a:visited {
+	display: block;
+width: 210px;
+	text-decoration: none;
+	padding: 7px;
+	font-weight: bold;
+	background-color: #a8ab93;
+	color: #FFF;
+	border-left: 0px solid #25b;
+}
+
+ul a:hover {
+	width: 210px;
+	background-color: #c1c4ae;
+	color: #fff;
+	border-left: 0px solid #26d;
+}
+
+#header {
+    height: 137px;
+    background: #FFFFFFF;
+}
+
+#menu {
+    height: 40px;
+    background: #C1823D;
+}
+
+middle {
+}
+
+#left {
+    float: left;
+    padding: 0px;
+    width: 224px;
+	 height:620px;
+	 background:url(images/kwiatek1.jpg) no-repeat top;
+    background-color: #a8ab93;
+}
+
+#cent {
+    float: left;
+    padding: 0px;
+    width: 448px;
+	 height:620px;
+    background:url(images/kwiatek.jpg) no-repeat top;
+
+}
+
+
+#text {
+    float: left;
+    padding: 0px;
+width: 438px;
+
+}
+#cent #text3 {
+    float: 0px;
+    margin-left: 10px;
+	 width: 438px;
+	 font-size: 12px;
+	 line-height: 13px;
+
+}
+
+#cent #foto {
+		float: 0 px;
+
+	 	width: 438px;
+
+}
+.wiersz {
+		float: 0;
+		margin-top: 1px;
+    	margin-bottom: 10px;
+		margin-left: 10px;
+	 	width: 438px;
+		border-color: transparent;
+		border-top: transparent;
+
+}
+
+#text p{
+    float: left;
+    padding: 10px;
+	 width: 428px;
+}
+
+.punkty {
+margin-left: 40px;}
+
+.nazwy {
+ color: #666655;
+ }
+.nazwy1 {
+ color: #666655;
+ }
+#right {
+    float: right;
+    padding: 0px;
+    width: 138px;
+  background-color: #a8ab93;
+}
+
+
+
+.footer {
+    clear: both;
+    height: 40px;
+    line-height: 60px;
+    text-align: right;
+	 margin-top: 0px;
+    background: #a8ab93;
+	 font: 10px Tahoma, Helvetica, sans-serif;
+}
+.footer p {
+    font:normal 10px Arial, Helvetica, sans-serif; color:#343434; line-height:1.8em; padding:5px; margin:0; float: right;}
